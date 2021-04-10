@@ -33,17 +33,32 @@ A t-test is performed to determine if all manufacturing lots and each lot indivi
 
 ![Suspension.png](https://github.com/mdhugge/MechaCar_Statistical_Analysis/blob/main/Images/Suspension.png)
 
-- The analysis above is a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The p-value is 0.06028 which is larger than the significance level of 0.05% that is assumed. As a result we fail to reject the null hypotheses and the mean of PSI across all maufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+- The analysis above is a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The p-value is 0.06028 which is larger than the significance level of 0.05% that is assumed. As a result, we fail to reject the null hypotheses and the mean of PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
 
 ![Lot 1.png](https://github.com/mdhugge/MechaCar_Statistical_Analysis/blob/main/Images/Lot1.png)
 
-- The analysis above is a t-test to determine if the PSI of Lot 1 is statistically different from the population mean of 1,500 pounds per square inch. The p-value is 1 which is much larger than the significance level of 0.05% that is assumed. As a result we fail to reject the null hypotheses and the mean of PSI for Lot 1 is not statistically different from the population mean of 1,500 pounds per square inch.
+- The analysis above is a t-test to determine if the PSI of Lot 1 is statistically different from the population mean of 1,500 pounds per square inch. The p-value is 1 which is much larger than the significance level of 0.05% that is assumed. As a result, we fail to reject the null hypotheses and the mean of PSI for Lot 1 is not statistically different from the population mean of 1,500 pounds per square inch.
 
 ![Lot 2.png](https://github.com/mdhugge/MechaCar_Statistical_Analysis/blob/main/Images/Lot2.png)
 
-- The analysis above is a t-test to determine if the PSI of Lot 2 is statistically different from the population mean of 1,500 pounds per square inch. The p-value is 0.6072 which is larger than the significance level of 0.05% that is assumed. As a result we fail to reject the null hypotheses and the mean of PSI for Lot 2 is not statistically different from the population mean of 1,500 pounds per square inch.
+- The analysis above is a t-test to determine if the PSI of Lot 2 is statistically different from the population mean of 1,500 pounds per square inch. The p-value is 0.6072 which is larger than the significance level of 0.05% that is assumed. As a result, we fail to reject the null hypotheses and the mean of PSI for Lot 2 is not statistically different from the population mean of 1,500 pounds per square inch.
 
 ![Lot 3.png](https://github.com/mdhugge/MechaCar_Statistical_Analysis/blob/main/Images/Lot3.png)
 
 - The analysis above is a t-test to determine if the PSI of Lot 3 is statistically different from the population mean of 1,500 pounds per square inch. The p-value is 0.04168 which is less than the significance level of 0.05% that is assumed. As a result we reject the null hypotheses and the mean of PSI for Lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
  
+## Study Design: MechaCar vs Competition
+
+When consumers compare different vehicles, they look at a number of different metrics. One such metric that would be of interest to consumers is the cost of vehicles. 
+
+In order to design a statistical study to compare the cost of the MechaCar vehicles against vehicles from other manufacturers an ANOVA statistical test could be performed. An ANOVA test would be the most efficient statistical test in this study as it allows for the comparison of multiple different samples.
+
+### Data
+For this particular analysis only Midsize Sedans from 2015-2020 will be considered. A randomized sample of a few vehicles from each manufacturer of interest will be used. Then the ANOVA statistical test will be performed to determine if there is a statistical difference between the mean cost of the multiple samples.
+
+### Hypotheses
+
+Null Hypothesis: The mean cost of Midsize Sedans from 2015-2020 made by different manufacturers is equal.
+
+Alternative Hypothesis: The mean cost of Midsize Sedans from 2015-2020 made by different manufacturers is not equal.
+
